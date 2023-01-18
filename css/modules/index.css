@@ -15,6 +15,10 @@ u {
   text-align: center;
 }
 
+body {
+  background-color: #393d40 !important;
+}
+
 header {
   max-width: 960px;
   min-width: 310px;

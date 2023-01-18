@@ -1,116 +1,145 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css">
-    <title>Books Store - Search</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Books Store - Search</title>
 </head>
+
 <body>
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 text-bg-dark" >
-        <div class="container ">
-            <div class="row">
-                <div class="col-12, col-sm-3">
-                        <button class="btn btn-primary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
-                            <a href="index.html" class="nav-link px-2 text-white">Home</a>
-                        </button>
-                </div>
-                <div class="col-12, col-sm-3">
-                        <button class="btn btn-secondary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
-                            <a href="cart.html" class="nav-link px-2 text-white">Cart</a>
-                        </button>
+	<header
+		class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 text-bg-dark">
+		<div class="container ">
+			<div class="row">
+				<div class="col-12, col-sm-3">
+					<button class="btn btn-primary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
+						<a href="index.html" class="nav-link px-2 text-white">Home</a>
+					</button>
+				</div>
+				<div class="col-12, col-sm-3">
+					<button class="btn btn-secondary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
+						<a href="cart.html" class="nav-link px-2 text-white">Cart</a>
+					</button>
 
-                </div>
-                <div class="col-12, col-sm-3">
-                        <button class="btn btn-secondary me-2 mt-2 dropdown dropdown-toggle container-fluid" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Buyer
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Log In</a></li>
-                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
-                            <li><a class="dropdown-item" href="#">Log Out</a></li>
-                        </ul>
-                </div>
-                <div class="col-12, col-sm-3">
-                        <button class="btn btn-secondary me-2 mt-2 dropdown dropdown-toggle container-fluid" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Seller
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Log In</a></li>
-                            <li><a class="dropdown-item" href="#">Log Out</a></li>
-                            <li><a class="dropdown-item" href="#">Add Item</a></li>
-                            <li><a class="dropdown-item" href="#">Search Items</a></li>
-                        </ul>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="container search">
-        <div class="row">
-            <div class="col-1 col-sm-2"></div>
-            <div class="col-12 col-sm-8">
-                <div  class="mt-12 mb-4" style="width: 100%;">
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                        <input type="search" class="form-control" placeholder="Search Book..." aria-label="Search">
-                    </form>
-                </div>
-
-            </div>
-            <div class="col-1 col-sm-2"></div>
-        </div>
-    </div>
-
-    <div class="row  list">
-        <div class="col-12 col-sm-6 col-md-4 ">
-            <div class="card" >
-                <img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Jump Start Adobe XD</h5>
-                    <p class="card-text">$24.71</p>
-                    <a href="#" class="btn btn-primary">Add to cart</a>
-                </div>
-            </div>
-        </div>
-<div class="col-12 col-sm-6 col-md-4 ">
-            <div class="card" >
-                <img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Jump Start Adobe XD</h5>
-                    <p class="card-text">$24.71</p>
-                    <a href="#" class="btn btn-primary">Add to cart</a>
-                </div>
-            </div>
-        </div>
-<div class="col-12 col-sm-6 col-md-4 ">
-            <div class="card" >
-                <img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Jump Start Adobe XD</h5>
-                    <p class="card-text">$24.71</p>
-                    <a href="#" class="btn btn-primary">Add to cart</a>
-                </div>
-            </div>
-        </div>
-<div class="col-12 col-sm-6 col-md-4 ">
-            <div class="card" >
-                <img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Jump Start Adobe XD</h5>
-                    <p class="card-text">$24.71</p>
-                    <a href="#" class="btn btn-primary">Add to cart</a>
-                </div>
-            </div>
-        </div>
+				</div>
+				<div class="col-12, col-sm-3">
+					<button class="btn btn-secondary me-2 mt-2 dropdown dropdown-toggle container-fluid" type="button"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						Buyer
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Log In</a></li>
+						<li><a class="dropdown-item" href="#">Sign Up</a></li>
+						<li><a class="dropdown-item" href="#">Log Out</a></li>
+					</ul>
+				</div>
+				<div class="col-12, col-sm-3">
+					<button class="btn btn-secondary me-2 mt-2 dropdown dropdown-toggle container-fluid" type="button"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						Seller
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">Log In</a></li>
+						<li><a class="dropdown-item" href="#">Log Out</a></li>
+						<li><a class="dropdown-item" href="#">Add Item</a></li>
+						<li><a class="dropdown-item" href="#">Search Items</a></li>
+					</ul>
+				</div>
 
 
-    </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+			</div>
+		</div>
+		</div>
+	</header>
+
+	<div class="container search">
+		<div class="row">
+			<div class="col-1 col-sm-2"></div>
+			<div class="col-12 col-sm-8">
+				<div class="mt-12 mb-4" style="width: 100%;">
+					<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+						<input type="search" class="form-control" placeholder="Search Book..." aria-label="Search">
+					</form>
+				</div>
+
+			</div>
+			<div class="col-1 col-sm-2"></div>
+		</div>
+	</div>
+
+	<div class="row  list">
+
+		<div class="col-12 col-sm-6 col-md-4 mt-4 mb-2">
+			<div class="card ">
+				<div class="d-flex align-items-center flex-column justify-content-center my-auto">
+					<img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top mt-2" alt="...">
+					<div class="card-body  ">
+						<h5 class="card-title">Jump Start Adobe XD</h5>
+						<p class="card-text">$24.71</p>
+
+						<button class="btn btn-primary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
+							<a href="cart.html" class="nav-link px-2 text-white">Add To Cart</a>
+						</button>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-4 mt-4 mb-2">
+			<div class="card ">
+				<div class="d-flex align-items-center flex-column justify-content-center my-auto">
+					<img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top mt-2" alt="...">
+					<div class="card-body  ">
+						<h5 class="card-title">Jump Start Adobe XD</h5>
+						<p class="card-text">$24.71</p>
+
+						<button class="btn btn-primary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
+							<a href="cart.html" class="nav-link px-2 text-white">Add To Cart</a>
+						</button>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-sm-6 col-md-4 mt-4 mb-2">
+			<div class="card ">
+				<div class="d-flex align-items-center flex-column justify-content-center my-auto">
+					<img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top mt-2" alt="...">
+					<div class="card-body  ">
+						<h5 class="card-title">Jump Start Adobe XD</h5>
+						<p class="card-text">$24.71</p>
+
+						<button class="btn btn-primary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
+							<a href="cart.html" class="nav-link px-2 text-white">Add To Cart</a>
+						</button>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-md-4 mt-4 mb-2">
+			<div class="card ">
+				<div class="d-flex align-items-center flex-column justify-content-center my-auto">
+					<img src="images/jump%20start%20adobe%20xd%20copver.jpeg" class="card-img-top mt-2" alt="...">
+					<div class="card-body  ">
+						<h5 class="card-title">Jump Start Adobe XD</h5>
+						<p class="card-text">$24.71</p>
+
+						<button class="btn btn-primary me-2 mt-2 container-fluid" type="button" aria-expanded="false">
+							<a href="cart.html" class="nav-link px-2 text-white">Add To Cart</a>
+						</button>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
