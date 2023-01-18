@@ -20,9 +20,17 @@ body {
 }
 
 .header {
+  --bs-bg-opacity: 0.8;
   max-width: 960px;
-  min-width: 310px;
+  background-color: #5d6368 !important;
   margin: auto;
+}
+button {
+  background-color: #7596bf !important;
+}
+.header button .active {
+  border: 4px;
+  shadow: 2px;
 }
 
 .search {
