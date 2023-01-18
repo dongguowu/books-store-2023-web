@@ -19,7 +19,7 @@ body {
   background-color: #393d40 !important;
 }
 
-header {
+.header {
   max-width: 960px;
   min-width: 310px;
   margin: auto;
