@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Books Store - Search</title>
 </head>
 <body>
@@ -15,7 +14,6 @@
         2
         <h1>Search</h1>
         <h1>Search</h1>
-        <div class="text-red-800">tailwind</div>
     </div>
     <div class="row">
         3
@@ -27,4 +25,12 @@
     </div>
 </div>
 </body>
+<script>
+    tailwind.config = {
+        prefix: "tw-",
+        corePlugins: {
+            preflight: false,
+        }
+    }
+</script>
 </html>
