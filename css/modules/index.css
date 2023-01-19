@@ -36,10 +36,8 @@ button {
 }
 
 .button-active {
-  border-style: solid;
-  border: -15rem;
-  shadow: 4px;
-  border-color: orange;
+  border: 3px solid orange;
+  box-shadow: -3px 3px #888888;
 }
 
 .width-960 {
