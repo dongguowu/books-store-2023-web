@@ -19,27 +19,23 @@ body {
   background-color: #393d40 !important;
 }
 
-.header {
+button {
+  background-color: #7596bf !important;
+}
+
+.header-section {
   --bs-bg-opacity: 0.8;
   max-width: 960px;
   background-color: #5d6368 !important;
   margin: auto;
 }
-button {
-  background-color: #7596bf !important;
-}
-.header button .active {
-  border: 4px;
-  shadow: 2px;
+
+.button-active {
+  border-style: solid;
+  border-color: red;
 }
 
-.search {
-  max-width: 960px;
-  min-width: 310px;
-  margin: auto;
-}
-
-.list {
+.width-960 {
   max-width: 960px;
   min-width: 310px;
   margin: auto;
