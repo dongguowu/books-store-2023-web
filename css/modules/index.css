@@ -20,7 +20,12 @@ body {
 }
 
 button {
-  background-color: #7596bf !important;
+  color: #000000 !important;
+  background-color: #f9ecc2 !important;
+}
+.dong-button {
+  color: #000000 !important;
+  background-color: #f9ecc2 !important;
 }
 
 .header-section {
@@ -32,13 +37,19 @@ button {
 
 .button-active {
   border-style: solid;
-  border: -5rem;
-  border-color: yellow;
+  border: -15rem;
+  shadow: 4px;
+  border-color: orange;
 }
 
 .width-960 {
   max-width: 960px;
   min-width: 310px;
+  margin: auto;
+}
+.width-160 {
+  max-width: 160px;
+  min-width: 90px;
   margin: auto;
 }
 

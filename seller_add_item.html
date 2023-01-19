@@ -18,7 +18,7 @@
         <div class="row gx-5 justify-content-between">
           <div class="col-sm-3">
             <button
-              class="btn me-2 mt-1 mb-1 container-fluid button-active"
+              class="btn me-2 mt-1 mb-1 container-fluid"
               type="button"
               aria-expanded="false"
             >
@@ -57,7 +57,7 @@
           </div>
           <div class="col-sm-3">
             <button
-              class="btn btn-secondary me-2 mt-1 mb-1 dropdown dropdown-toggle container-fluid"
+              class="btn btn-secondary me-2 mt-1 mb-1 dropdown dropdown-toggle container-fluid button-active"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -95,49 +95,67 @@
             </div>
             <form>
               <div class="mb-3">
-                <label for="formGroupText" class="form-label">Name</label>
+                <label for="validationDefaultText">Name</label>
                 <input
                   type="text"
-                  class="form-control"
                   placeholder="Enter item name."
-                  id="formGroupText"
+                  class="form-control"
+                  id="validationDefaultText"
+                  required=""
                 />
               </div>
               <div class="mb-3">
                 <label for="formGroupText2" class="form-label">Category</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter item category."
-                  id="formGroupText2"
-                  aria-describedby="formGroupText2Help"
-                />
+                <select
+                  class="form-select"
+                  id="validationDefaultSelect"
+                  required=""
+                >
+                  <option value="">Select item category</option>
+                  <option value="1">back-end</option>
+                  <option value="2">front-end</option>
+                  <option value="3">user-interface</option>
+                </select>
                 <p class="valid-feedback">Valid feedback text</p>
                 <p class="invalid-feedback">Invalid feedback text</p>
               </div>
               <div class="mb-3">
                 <label for="formGroupText2" class="form-label">Price</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter price."
-                  id="formGroupText2"
-                  aria-describedby="formGroupText2Help"
-                />
+                <div class="input-group">
+                  <span
+                    class="input-group-text"
+                    id="validationDefaultInputGroup"
+                    >$</span
+                  >
+                  <input
+                    type="number"
+                    placeholder="Enter price."
+                    class="form-control"
+                    aria-label="Amount"
+                    aria-describedby="validationDefaultInputGroup"
+                    required=""
+                  />
+                </div>
                 <p class="valid-feedback">Valid feedback text</p>
                 <p class="invalid-feedback">Invalid feedback text</p>
               </div>
               <div class="mb-3">
                 <label for="formGroupText2" class="form-label">Quantity</label>
                 <input
-                  type="text"
+                  type="number"
+                  placeholder="Enter quantity"
                   class="form-control"
-                  placeholder="Enter quantity."
-                  id="formGroupText2"
-                  aria-describedby="formGroupText2Help"
+                  aria-label="Amount"
+                  aria-describedby="validationDefaultInputGroup"
+                  required=""
                 />
                 <p class="valid-feedback">Valid feedback text</p>
                 <p class="invalid-feedback">Invalid feedback text</p>
+              </div>
+              <div class="mb-4 text-center width-160">
+                <button type="submit" class="btn dong-button container-fluid">
+                  Submit form
+                </button>
               </div>
             </form>
           </div>
