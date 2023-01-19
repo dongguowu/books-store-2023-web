@@ -41,3 +41,7 @@ button {
   min-width: 310px;
   margin: auto;
 }
+
+.dong-form {
+  background-color: #696e74 !important;
+}
