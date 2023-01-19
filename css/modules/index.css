@@ -48,8 +48,7 @@ button {
   margin: auto;
 }
 .width-160 {
-  max-width: 160px;
-  min-width: 90px;
+  max-width: 576px;
   margin: auto;
 }
 
