@@ -10,6 +10,7 @@
       type="image/x-icon"
       href="https://dongguowu.github.io/dongguo_client_side_web/images/icons/favicon.ico"
     />
+    <script type="text/javascript" src="js/functions.js"></script>
   </head>
 
   <body>
@@ -31,7 +32,9 @@
               type="button"
               aria-expanded="false"
             >
-              <a href="cart.html" class="nav-link px-2">Cart</a>
+              <a id="current-cart" href="cart.html" class="nav-link px-2"
+                >Cart</a
+              >
             </button>
           </div>
           <div class="col-sm-3">
@@ -138,6 +141,7 @@
                     class="btn btn-primary me-2 mt-2 container-fluid"
                     type="button"
                     aria-expanded="false"
+                    onclick="addCart(1)"
                   >
                     <div class="nav-link px-2">Add To Cart</div>
                   </button>
@@ -163,6 +167,7 @@
                     class="btn btn-primary me-2 mt-2 container-fluid"
                     type="button"
                     aria-expanded="false"
+                    onclick="addCart(1)"
                   >
                     <div class="nav-link px-2">Add To Cart</div>
                   </button>
@@ -188,6 +193,7 @@
                     class="btn btn-primary me-2 mt-2 container-fluid"
                     type="button"
                     aria-expanded="false"
+                    onclick="addCart(1)"
                   >
                     <div class="nav-link px-2">Add To Cart</div>
                   </button>
@@ -213,6 +219,7 @@
                     class="btn btn-primary me-2 mt-2 container-fluid"
                     type="button"
                     aria-expanded="false"
+                    onclick="addCart(1)"
                   >
                     <div class="nav-link px-2">Add To Cart</div>
                   </button>
