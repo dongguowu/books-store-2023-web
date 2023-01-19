@@ -32,7 +32,8 @@ button {
 
 .button-active {
   border-style: solid;
-  border-color: red;
+  border: -5rem;
+  border-color: yellow;
 }
 
 .width-960 {
