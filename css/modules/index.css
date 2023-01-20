@@ -45,9 +45,20 @@ button {
   min-width: 310px;
   margin: auto;
 }
+
 .width-160 {
   max-width: 576px;
   margin: auto;
+}
+
+.width-260 {
+  max-height: 260px;
+  margin: auto;
+}
+
+.height-480 {
+  max-height: 480px;
+  min-height: 480px;
 }
 
 .dong-form {
