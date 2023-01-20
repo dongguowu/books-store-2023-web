@@ -54,3 +54,15 @@ button {
   background-color: #696e74 !important;
   border-radius: 6px;
 }
+.dong-card {
+  background-color: #ffffff !important;
+  border-radius: 6px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.item-detail-description {
+  font-family: Arial, sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
