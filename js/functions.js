@@ -10,4 +10,8 @@ function addCart(value) {
   }
   currentValue += parseInt(value);
   element.innerHTML = "Cart(" + currentValue + ")";
+  let cartButton = document.getElementById("button-cart");
+  if (currentValue != 0 && cartButton.classList.contains("disabled")) {
+    cartButton.classList.remove("disabled");
+  }
 }
