@@ -7,3 +7,4 @@ A project for learning client side web
 updated 2024-12
 
 modified on unbuntu
+modified on oracle cloud
